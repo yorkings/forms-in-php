@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0 ;
+
+}
+
+.header{
+    position:relative;
+    height:40px;
+    padding:20px;
+    display:flex;
+
+    background:rgba(191, 226, 16, 0.935);
+    justify-content: space-between;
+    align-items:center;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bolder;
+    color:blue;
+    z-index: 10;
+}
+.navbar a{
+    margin-left:40px;
+    justify-content: center;
+    margin-right:10px;
+    font-size: 1.3em;
+    outline:none;
+    text-decoration:none;
+    color:blueviolet;
+}
+
+ .navbar .login-btn{
+    height:40px;
+    width:90px;
+    color:orange;
+    background:greenyellow;
+    border-radius:10px;
+    box-shadow: 0px 0px 20px;
+    backdrop-filter:blur(23px);
+}
+.navbar .login-btn:hover{
+    color:white;
+    transition: .5s;
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.hero{
+    
+    background-color: darkblue;
+}
+.home-look{
+    margin:140px 0px 0px 120px;
+    justify-content: center;
+    align-items: center;
+}
+h2.welcome{
+ font-size: 60px;
+ font-weight: 900;
+text-transform:uppercase;
+ }
+.intro{
+    color:blue;
+    font-size:40px ; font-family: 'Gill Sans';
+}
+.home-btn a{
+    color:black;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration:none;
+
+}
+.home-btn{
+    height:50px;
+    width:170px;
+    font-size-adjust: calc(12px);
+    align-items: center;
+    background:orangered;
+   box-shadow: 10px;
+    color:black;
+    border:2px darkblue solid;
+}
+.form-lgn{
+    text-align: center;
+    border:2px;
+    background-color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width:400px;
+    margin:0px 0px 0px 400px;
+    font-size: larger;
+    color: blue;
+}
+form{
+    margin:0px auto;
+    text-align: center;
+}
+.input{
+    display:block;
+}
+input{
+    margin-top: 20px;
+    border:1px solid #f2f2f2;
+    padding:4px;
+    box-shadow: 0 0 10px; 
+    background-color:#f2f2f2;  
+
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+::placeholder{
+    text-transform: uppercase;
+}
+form span{
+    margin-top: 10px;
+    color:black;
+}
+form p{
+    color:black;
+    margin-top: 20px;
+    
+}
+.btn{
+    margin-top: 40px;
+     background-color:red;
+     width:120px;
+     height:40px;
+}
+.form-lgn2{
+    text-align: center;
+    border:2px;
+    background-color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width:400px;
+    margin:0px 0px 0px 750px;
+    font-size: larger;
+    color: blue;
+}
+textarea{
+    margin-top: 20px;
+    border:1px solid #f2f2f2;
+    padding:4px;
+    height: 140px;
+    width:170px;
+    box-shadow: 0 0 10px; 
+    background-color:#f2f2f2;  
+
+}
+.form-lgn3{
+    position: absolute;
+    margin-left:10px;
+    text-align: center;
+    border:2px;
+    width:500px; 
+    background-color:rgb(39, 17, 166);
+    align-items: center;
+    justify-content: center;
+    margin:0px auto;
+    font-size: larger;
+    color: rgb(72, 221, 146);
+    filter: drop-shadow(27px);
+}
