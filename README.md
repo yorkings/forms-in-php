@@ -3,3 +3,4 @@
  >xammp
  >activate apache
  ## run the code
+ #it includes login page ,signup,home page
